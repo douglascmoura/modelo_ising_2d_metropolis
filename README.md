@@ -33,9 +33,11 @@ A simulação computacional utiliza a dinâmica estocástica do **Algoritmo de M
 ## 📂 Estrutura do Repositório
 
 ```text
+├── .gitignore                            # Evita o upload do ambiente virtual
 ├── Modelo_Ising.pdf                      # Relatório técnico-teórico completo do modelo
 ├── modelo_ising.R                        # Script em R 
 ├── app_ising.py                          # Script principal da aplicação interativa Streamlit
+├── requirements.txt                      # Lista de dependências para o deploy
 └── README.md                             # Este documento de apresentação
 ```
 
