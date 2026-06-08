@@ -133,11 +133,12 @@ def main():
                              min_value=0.0, max_value=1.0, value=0.1, step=0.05,
                              help="Aumente para deixar a animação mais lenta e observar a organização das células com calma.")
         
-        start_button = st.button("▶ Iniciar Simulação", use_container_width=True, type="primary")
+        start_button = st.button("▶ Iniciar Simulação", width="stretch", type="primary")
 
     # --- ÁREA PRINCIPAL ---
     # Layout em colunas
-    col1, col2 = st.columns([1, 1])
+    # col1, col2 = st.columns([1, 1])
+    _, col1, _, col2, _ = st.columns([0.14, 1, 0.07, 1, 0.14])
     
     with col1:
         st.subheader("Estado Inicial")
@@ -156,7 +157,7 @@ def main():
         
         # Renderiza a imagem inicial
         img_inicial = render_grid_to_rgb(grid)
-        placeholder_inicial.image(img_inicial, use_container_width=True)
+        placeholder_inicial.image(img_inicial, width="stretch")
         
         # 2. Configurações da Animação
         passos_por_frame = int(total_iteracoes / fps_update)
@@ -170,7 +171,7 @@ def main():
             
             # Renderiza velozmente e envia para a UI
             img_atual = render_grid_to_rgb(grid)
-            placeholder_animacao.image(img_atual, use_container_width=True)
+            placeholder_animacao.image(img_atual, width="stretch")
             
             # Atualização de UI com FORMATAÇÃO PT-BR
             iteracoes_atuais = (frame + 1) * passos_por_frame
