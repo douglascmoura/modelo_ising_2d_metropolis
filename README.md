@@ -1,8 +1,18 @@
 # 🧪 Modelo de Ising 2D: Simulação Estocástica e Transições de Fase
 
+▶️ [Acesse o aplicativo Streamlit!](https://douglasmoura-ising-2d.streamlit.app/)
+
 Este repositório é dedicado à modelagem computacional e simulação estatística do **Modelo de Ising Bidimensional**, um dos paradigmas mais importantes da Mecânica Estatística para o estudo de fenômenos coletivos, magnetismo e transições de fase.
 
 O projeto une o rigor matemático dos métodos de Monte Carlo à interatividade moderna, oferecendo uma aplicação visual de alta performance desenvolvida em **Python (Streamlit)** e rotinas de análise complementar em **R**.
+
+---
+
+## 📸 Demonstração da Aplicação
+
+![Demonstração da Aplicação do Modelo de Ising](app_ising_demo.png)
+
+*Interface interativa rodando via Streamlit: visualização da evolução dos domínios magnéticos em tempo real.*
 
 ---
 
