@@ -25,7 +25,7 @@ O projeto combina o rigor físico-matemático com a interatividade moderna, forn
 
 ![Demonstração da Aplicação do Modelo de Ising](app_ising_demo.png)
 
-*Interface da aplicação Streamlit: o painel esquerdo apresenta a configuração inicial aleatória (temperatura infinita) e o painel direito exibe a evolução termodinâmica e a formação de domínios magnéticos após a termalização próximo à temperatura crítica ($T_c \approx 2.269 \frac{J}{k_B}$).*
+*Interface da aplicação Streamlit: o painel esquerdo apresenta a configuração inicial aleatória (temperatura infinita) e o painel direito exibe a evolução termodinâmica e a formação de domínios magnéticos após a termalização próximo à temperatura crítica ($T_c \approx 2,269 \frac{J}{k_B}$).*
 
 ---
 
@@ -44,7 +44,7 @@ Onde:
 
 A transição de fase ferromagnética ocorre na temperatura crítica de Curie ($T_c$, com $h=0$). No limite termodinâmico, o valor crítico do parâmetro de acoplamento térmico $\beta = \frac{1}{k_B T}$ foi solucionado analiticamente de forma exata por **Lars Onsager (1944)**:
 
-$$\beta_c = \frac{\ln(1+\sqrt{2})}{2J} \approx 0.4407$$
+$$\beta_c = \frac{\ln(1+\sqrt{2})}{2J} \approx 0,4407$$
 
 Abaixo dessa temperatura ($\beta > \beta_c$), as interações ferromagnéticas locais dominam, fazendo surgir uma magnetização espontânea global ($M > 0$). Acima dela ($\beta < \beta_c$), a desordem térmica supera o acoplamento, restaurando a simetria de fase paramagnética ($M = 0$).
 
@@ -157,7 +157,7 @@ Substituindo o antigo rascunho simplificado, o novo relatório técnico incorpor
 * **Balanço Detalhado e Ergodicidade:** Demonstração formal de como a decomposição de propostas simétricas e probabilidades de aceitação no critério de Metropolis satisfazem a equação de balanço detalhado, garantindo a convergência da distribuição empírica para a distribuição estacionária de Gibbs.
 * **Grandezas Observáveis Termodinâmicas:** Equações de flutuação-dissipação para cálculo da magnetização espontânea, suscetibilidade magnética ($\chi$) e calor específico ($C$).
 * **Desaceleramento Crítico (*Critical Slowing Down*):** Discussão teórica da divergência de tempo de autocorrelação integrado ($\tau_{\text{int}} \sim |T - T_c|^{-z\nu}$) próximo ao ponto crítico e as limitações de atualizações locais de spins.
-* **Invariância de Escala e Emergência Fractal:** Análise geométrica do contorno de domínios no ponto crítico, exibindo dimensão fractal analítica de $D_f = 1.375$ (Evolução de Schramm-Loewner).
+* **Invariância de Escala e Emergência Fractal:** Análise geométrica do contorno de domínios no ponto crítico, exibindo dimensão fractal analítica de $D_f = 1,375$ (Evolução de Schramm-Loewner).
 
 ---
 
