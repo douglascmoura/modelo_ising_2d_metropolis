@@ -1,11 +1,13 @@
 <a name="topo"></a>
 # 🧪 Modelo de Ising 2D: Simulação Estocástica e Fenômenos Críticos
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://douglasmoura-ising-2d.streamlit.app/)
-[![Numba JIT](https://img.shields.io/badge/Python-Numba_JIT-blue?style=for-the-badge&logo=python&logoColor=white)](#)
-[![R Language](https://img.shields.io/badge/R-Language-276DC3?style=for-the-badge&logo=R&logoColor=white)](#)
-[![LaTeX Relatório](https://img.shields.io/badge/LaTeX-Relatório_PDF-008080?style=for-the-badge&logo=LaTeX&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Douglas_Moura-black?style=for-the-badge&logo=react&logoColor=white)](https://douglas-moura-portfolio.pages.dev)
+<p align="center">
+  <a href="https://douglasmoura-ising-2d.streamlit.app/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" alt="Streamlit App"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Python-Numba_JIT-D4AF37?style=for-the-badge&logo=python&logoColor=white" alt="Numba JIT"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/R-Language-276DC3?style=for-the-badge&logo=R&logoColor=white" alt="R Language"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/LaTeX-Relatório_PDF-008080?style=for-the-badge&logo=LaTeX&logoColor=white" alt="LaTeX Relatório"/></a>
+  <a href="https://douglas-moura-portfolio.pages.dev"><img src="https://img.shields.io/badge/Portfolio-Douglas_Chaves_Moura-black?style=for-the-badge&logo=googlepubsub&logoColor=white" alt="Portfolio"/></a>
+</p>
 
 Este repositório é dedicado à modelagem computacional e simulação estatística do **Modelo de Ising Bidimensional**, um dos paradigmas mais fundamentais da Mecânica Estatística para o estudo de fenômenos coletivos, magnetismo espontâneo e transições de fase de segunda ordem. 
 
@@ -25,7 +27,7 @@ O projeto combina o rigor físico-matemático com a interatividade moderna, forn
 
 ![Demonstração da Aplicação do Modelo de Ising](app_ising_demo.png)
 
-*Interface da aplicação Streamlit: o painel esquerdo apresenta a configuração inicial aleatória (temperatura infinita) e o painel direito exibe a evolução termodinâmica e a formação de domínios magnéticos após a termalização próximo à temperatura crítica ($T_c \approx 2,269 \frac{J}{k_B}$).*
+*Interface da aplicação Streamlit: o painel esquerdo apresenta a configuração inicial aleatória (temperatura infinita) e o painel direito exibe a evolução termodinâmica e a formação de domínios magnéticos após a termalização próximo à temperatura crítica* ($T_c \approx 2,269 \frac{J}{k_B}$).
 
 ---
 
@@ -161,13 +163,13 @@ Substituindo o antigo rascunho simplificado, o novo relatório técnico incorpor
 
 ---
 
-## ✍️ Autor
+## ✍🏽 Autor
 
 <table align="center">
   <tr>
     <td align="center" width="150px">
       <img src="https://github.com/douglascmoura.png" width="110px;" style="border-radius:50%;" alt="Douglas Moura"/><br />
-      <sub><b>Douglas Moura</b></sub>
+      <sub><b>Douglas Chaves Moura</b></sub>
     </td>
     <td>
       <p>Desenvolvedor e pesquisador idealizador deste projeto sob a identidade <b>DOCHMO</b>. Focado na aplicação prática de métodos computacionais para problemas de Física Estatística, modelagem estocástica e simulações científicas de alta performance.</p>
@@ -175,7 +177,7 @@ Substituindo o antigo rascunho simplificado, o novo relatório técnico incorpor
         <a href="https://github.com/douglascmoura"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
         <a href="https://www.linkedin.com/in/douglas-chaves-moura/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
         <a href="mailto:douglascmoura21@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-        <a href="https://douglas-moura-portfolio.pages.dev/"><img src="https://img.shields.io/badge/Website-008080?style=for-the-badge&logo=react&logoColor=white" alt="Website"/></a>
+        <a href="https://douglas-moura-portfolio.pages.dev/"><img src="https://img.shields.io/badge/Website-0A1630?style=for-the-badge&logo=googlepubsub&logoColor=white" alt="Website"/></a>
       </p>
     </td>
   </tr>
