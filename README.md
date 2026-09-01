@@ -1,5 +1,10 @@
 <a name="topo"></a>
-# 🧪 Modelo de Ising 2D: Simulação Estocástica e Fenômenos Críticos
+
+<p align="center">
+  <img src="capa-readme.png" alt="🧪 Modelo de Ising 2D: Simulação Estocástica e Fenômenos Críticos" width="100%"/>
+</p>
+
+<h1 align="center">🧪 Modelo de Ising 2D: Simulação Estocástica e Fenômenos Críticos</h1>
 
 <p align="center">
   <a href="https://douglasmoura-ising-2d.streamlit.app/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" alt="Streamlit App"/></a>
